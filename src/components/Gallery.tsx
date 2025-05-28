@@ -7,32 +7,32 @@ interface Item {
 }
 
 const mixMatch = [
-  { id: 1, src: "/images/blouse1.png", alt: "Blouse Hijau" },
-  { id: 2, src: "/images/blouse2.png", alt: "Blouse Cream" },
-  { id: 3, src: "/images/blouse3.png", alt: "Blouse Abu-abu" },
-  { id: 4, src: "/images/kulot.png", alt: "Kulot Putih" },
+  { id: 1, src: "./images/blouse1.png", alt: "Blouse Hijau" },
+  { id: 2, src: "./images/blouse2.png", alt: "Blouse Cream" },
+  { id: 3, src: "./images/blouse3.png", alt: "Blouse Abu-abu" },
+  { id: 4, src: "./images/kulot.png", alt: "Kulot Putih" },
 ];
 
 const midiDress = [
-  { id: 5, src: "/images/midi1.png", alt: "Midi Dress Biru" },
-  { id: 6, src: "/images/midi2.png", alt: "Midi Dress Biru Muda" },
+  { id: 5, src: "./images/midi1.png", alt: "Midi Dress Biru" },
+  { id: 6, src: "./images/midi2.png", alt: "Midi Dress Biru Muda" },
 ];
 
 const tunik = [
-  { id: 7, src: "/images/tunik1.png", alt: "Tunik Hijau" },
-  { id: 8, src: "/images/tunik2.png", alt: "Tunik Hijau Muda" },
-  { id: 9, src: "/images/pants1.png", alt: "Celana Oranye" },
+  { id: 7, src: "./images/tunik1.png", alt: "Tunik Hijau" },
+  { id: 8, src: "./images/tunik2.png", alt: "Tunik Hijau Muda" },
+  { id: 9, src: "./images/pants1.png", alt: "Celana Oranye" },
 ];
 
 const blouseModes = [
-  { id: 10, src: "/images/blouseMode1.png", alt: "Blouse Abu Tua" },
-  { id: 11, src: "/images/blouseMode2.png", alt: "Blouse Hijau Muda" },
-  { id: 12, src: "/images/blouseMode3.png", alt: "Blouse Corak Bunga" },
+  { id: 10, src: "./images/blouseMode1.png", alt: "Blouse Abu Tua" },
+  { id: 11, src: "./images/blouseMode2.png", alt: "Blouse Hijau Muda" },
+  { id: 12, src: "./images/blouseMode3.png", alt: "Blouse Corak Bunga" },
 ];
 
 const skirts = [
-  { id: 13, src: "/images/skirt1.png", alt: "Rok Krem" },
-  { id: 14, src: "/images/skirt2.png", alt: "Rok Coklat" },
+  { id: 13, src: "./images/skirt1.png", alt: "Rok Krem" },
+  { id: 14, src: "./images/skirt2.png", alt: "Rok Coklat" },
 ];
 
 const Gallery: React.FC = () => {
